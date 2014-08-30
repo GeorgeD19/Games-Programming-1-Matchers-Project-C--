@@ -1,0 +1,51 @@
+﻿Build started 07/04/2014 19:20:02.
+     1>Project "C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\matcherProject\matcherProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\matcherProject.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"d3d9.lib d3dx9.lib" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cD3DManager.cpp cD3DXFont.cpp cD3DXSpriteMgr.cpp cD3DXTexture.cpp cDetector.cpp cEnemy.cpp cExplosion.cpp cSprite.cpp cWeeman.cpp cXAudio.cpp main.cpp
+         cD3DManager.cpp
+         cD3DXFont.cpp
+         cD3DXSpriteMgr.cpp
+         cD3DXTexture.cpp
+         cDetector.cpp
+         cEnemy.cpp
+         cExplosion.cpp
+         cSprite.cpp
+         cWeeman.cpp
+         cXAudio.cpp
+         main.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\GameResources.res" GameResources.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Release\matcherProject.exe" /NOLOGO d3d9.lib d3dx9.lib DXUTOpt.lib winmm.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\matcherProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Release\matcherProject.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Release\matcherProject.lib" /MACHINE:X86 Release\GameResources.res
+         Release\cD3DManager.obj
+         Release\cD3DXFont.obj
+         Release\cD3DXSpriteMgr.obj
+         Release\cD3DXTexture.obj
+         Release\cDetector.obj
+         Release\cEnemy.obj
+         Release\cExplosion.obj
+         Release\cSprite.obj
+         Release\cWeeman.obj
+         Release\cXAudio.obj
+         Release\CXBOXController.obj
+         Release\main.obj
+         DXUT.lib
+         DXUTOpt.lib
+     1>DXUTOpt.lib(SDKwavefile.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>DXUTOpt.lib(SDKwavefile.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'DXUTOpt.lib(SDKwavefile.obj)' or at 'C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Release\vc90.pdb'; linking object as if no debug info
+         matcherProject.vcxproj -> C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Release\matcherProject.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Release\matcherProject.exe;#1" /manifest Release\matcherProject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\matcherProject.unsuccessfulbuild".
+         Touching "Release\matcherProject.lastbuildstate".
+     1>Done Building Project "C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\matcherProject\matcherProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.32

@@ -1,0 +1,18 @@
+#include "GameResources.h"
+
+// --------------------------------------
+// Icons
+// --------------------------------------
+IDI_MatcherIcon   ICON  "Images\\Matcher.ico"
+
+// --------------------------------------
+// Fonts
+// --------------------------------------
+IDF_AmCapFont       FONT	"Fonts\\Cinegbin.ttf"
+IDF_MySolidFont		FONT	"Fonts\\Cinegbin.ttf"
+IDF_SegoeUIFont		FONT	"Fonts\\Cinegbin.ttf"
+
+// --------------------------------------
+// Cursors
+// --------------------------------------
+IDC_CURSOR1     CURSOR  "Images\\cursor.cur"

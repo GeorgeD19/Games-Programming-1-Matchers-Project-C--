@@ -1,0 +1,31 @@
+﻿Build started 10/03/2014 15:52:09.
+     1>Project "C:\Students\VS2010 Projects\Lab 7\Lab 7\Lab 7.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lab 7.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"d3d9.lib d3dx9.lib" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Students\VS2010 Projects\Lab 7\Debug\Lab 7.exe" /NOLOGO d3d9.lib d3dx9.lib DXUTOpt.lib winmm.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Students\VS2010 Projects\Lab 7\Debug\Lab 7.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Students\VS2010 Projects\Lab 7\Debug\Lab 7.lib" /MACHINE:X86 Debug\GameResources.res
+         Debug\cBalloon.obj
+         Debug\cD3DManager.obj
+         Debug\cD3DXFont.obj
+         Debug\cD3DXSpriteMgr.obj
+         Debug\cD3DXTexture.obj
+         Debug\cExplosion.obj
+         Debug\cSprite.obj
+         Debug\cXAudio.obj
+         Debug\main.obj
+         DXUT.lib
+         DXUTOpt.lib
+         Lab 7.vcxproj -> C:\Students\VS2010 Projects\Lab 7\Debug\Lab 7.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab 7.unsuccessfulbuild".
+         Touching "Debug\Lab 7.lastbuildstate".
+     1>Done Building Project "C:\Students\VS2010 Projects\Lab 7\Lab 7\Lab 7.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.48

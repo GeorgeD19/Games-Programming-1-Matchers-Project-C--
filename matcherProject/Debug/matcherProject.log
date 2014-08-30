@@ -1,0 +1,34 @@
+﻿Build started 13/04/2014 11:06:07.
+     1>Project "C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\matcherProject\matcherProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\matcherProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"d3d9.lib d3dx9.lib" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Debug\matcherProject.exe" /NOLOGO d3d9.lib d3dx9.lib DXUTOpt.lib winmm.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Debug\matcherProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Debug\matcherProject.lib" /MACHINE:X86 Debug\GameResources.res
+         Debug\cD3DManager.obj
+         Debug\cD3DXFont.obj
+         Debug\cD3DXSpriteMgr.obj
+         Debug\cD3DXTexture.obj
+         Debug\cDetector.obj
+         Debug\cEnemy.obj
+         Debug\cExplosion.obj
+         Debug\cSprite.obj
+         Debug\cWeeman.obj
+         Debug\cXAudio.obj
+         Debug\CXBOXController.obj
+         Debug\main.obj
+         DXUT.lib
+         DXUTOpt.lib
+         matcherProject.vcxproj -> C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\Debug\matcherProject.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\matcherProject.unsuccessfulbuild".
+         Touching "Debug\matcherProject.lastbuildstate".
+     1>Done Building Project "C:\Users\George\Desktop\Games Programming Coursework - George Dunlop S1215114\matcherProjectv2.1\matcherProject\matcherProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.16
